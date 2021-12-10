@@ -1,4 +1,4 @@
-def count(in_: [int]) -> int:
+def count(in_: list[int]) -> int:
     previous = None
     count = 0
     for i in in_:
@@ -14,4 +14,3 @@ if __name__ == "__main__":
         lines = f.readlines()
     values = [int(line) for line in lines]
     print(count(values))
-
